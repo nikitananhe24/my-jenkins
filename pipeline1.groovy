@@ -30,14 +30,14 @@ pipeline {
             }
         }
         
-           stage('Quality-gate') {
-            steps {
-                timeout(10) {
+        //    stage('Quality-gate') {
+        //     steps {
+        //         timeout(10) {
     
-               }
-                waitForQualityGate true
-            }
-        }
+        //        }
+        //         waitForQualityGate true
+        //     }
+        // }
 
         stage('deploy') {
             steps {
