@@ -34,7 +34,7 @@ pipeline {
             steps {
                 timeout(10) {
     
-            }
+               }
                 waitForQualityGate true
             }
         }
